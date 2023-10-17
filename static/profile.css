@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html,body{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(bottom, rgba(204, 240, 201, 0.8),#fff, rgba(242, 215, 189, 0.8));
+  }
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(bottom, rgba(19, 136, 8, 0.80),#fff, rgba(255, 153, 51, 0.80));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(19, 136, 8, 0.80), rgba(255, 153, 51, 0.80));
+    }
